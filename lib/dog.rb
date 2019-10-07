@@ -9,11 +9,11 @@ class Dog
   end
   
   def save
-    # @@all << sel
+    @@all << sel
   end
   
   def self.all
-    @@all << self
+    @@all 
   end
   
   def self.print_all
